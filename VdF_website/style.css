@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom right, #434343, #191919);
+}
+
+::-webkit-scrollbar { /* 1 - скроллбар */
+    width: 5px;
+    height: 4px;
+    background-color: #6d6d6d;
+  }
+
+  ::-webkit-scrollbar-button { /* 2 - кнопка */
+
+  }
+
+  ::-webkit-scrollbar-track { /* 3 - трек */
+  }
+
+  ::-webkit-scrollbar-track-piece { /* 4 - видимая часть трека */
+  }
+
+  ::-webkit-scrollbar-thumb { /* 5 - ползунок */
+    border-radius: 5px;
+    background-color: #df2b2b;
+  }
+
+  ::-webkit-scrollbar-corner { /* 6 - уголок */
+  }
+
+  ::-webkit-resizer { /* 7 - изменение размеров */
+  }
+
+h1 > span {
+    font-size: 100px;
+}
+
+h1 {
+    position: relative;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 160px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header {
+    visibility: visible;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    animation: 2s show ease;
+}
+
+.header-img {
+    position: absolute;
+    margin-left: 850px;
+    height: 100vh;
+}
+
+.mySwiper{
+    width: 100%;
+    height: 100vh;
+}
+.swiper-slide{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 100;
+    font-size: 18px;
+    background: linear-gradient(to bottom right, #434343, #191919);
+    display: flex;
+}
+
+.img-description {
+    padding-top: 10px;
+    font-family: 'Comfortaa', cursive;
+    color: white;
+    font-size: 12px;
+    border-top: 1px solid white;
+    text-align: center;
+}
+
+.img-desc {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.imageSet {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.abzac {
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+
+.r {
+    display: flex;
+}
+
+.p {
+    display: block;
+}
+
+.che-to {
+    width: fit-content;
+    display: flex;
+    border: 1px solid white;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.swiper-slide > div {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    right: 140px; 
+    left: auto;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    left: 140px; 
+    right: auto;
+}
+
+.slide-transition {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(41, 42, 44);
+    background-image: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-size: contain;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.transition-text {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2 {
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.block-description {
+    padding-top: 10px;
+    color: white;
+    font-size: 18px;
+    border-top: 1px solid white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+.video-slide {
+    display: block;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.video {
+    display: block;
+}
+
+.block1 {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom left, #434343, #131313);
+    border-bottom: 1px solid white;
+}
+
+.block11 {
+    width: 50%;
+}
+
+.block111 {
+    width: 50%;
+}
+
+.block2 {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #131313, #434343);
+    border-bottom: 1px solid white;
+}
+
+.block22 {
+    width: 50%;
+    padding-left: 100px;
+}
+
+.block11 > h2 {
+    padding-top: 100px;
+}
+
+.block22 > h2 {
+    padding-top: 100px;
+}
+
+.block111 > h2 {
+    padding-top: 50px;
+}
+
+.block3 {
+    display: flex;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #434343, #131313);
+    border-bottom: 1px solid white;
+}
+
+.slide-transition1 {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(41, 42, 44);
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+    background-size: contain;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-size: 50px;
+    font-weight: 500;
+    display: flex;
+    justify-content: right;
+    vertical-align: middle;
+}
+
+.text {
+    font-size: 15px;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 40px;
+}
+
+@keyframes show {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
